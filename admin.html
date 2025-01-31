@@ -11,11 +11,12 @@
 
 </head>
 <body>
+  <!-- 기본틀 -->
     <h1>Admin</h1>
     <hr>
-    <div class="container" style="float: left;">
+    <div class="container" style="max-width: 100%;">
         <div class="row">
-            <div class="col-3" style="text-align: center;">
+            <div class="col-2" style="text-align: center;">
                 <div class="accordion" id="accordionExample">
                     <div class="accordion-item">
                       <h2 class="accordion-header">
@@ -25,6 +26,7 @@
                       </h2>
                       <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                         <div class="accordion-body"> 
+                          <a href="admin.html">Home</a>
                         </div>
                       </div>
                     </div>
@@ -47,168 +49,63 @@
                       </h2>
                       <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
+                          
                         </div>
                       </div>
                     </div>
                     <div class="accordion-item">
                       <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                           서비스관리
                         </button>
                       </h2>
-                      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
+                          
                         </div>
                       </div>
                     </div>
                     <div class="accordion-item">
                       <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                           커뮤니케이션
                         </button>
                       </h2>
-                      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
                         </div>
                       </div>
                     </div>
                     <div class="accordion-item">
                       <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                           시스템관리
                         </button>
                       </h2>
-                      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
+                          <a href="code-management.html">코드관리<br></a>
+                          <a href="codegroup-management.html">코드그룹관리</a>
                         </div>
                       </div>
                     </div>
                     <div class="accordion-item">
                       <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
                           개인정보관리
                         </button>
                       </h2>
-                      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
                         </div>
                       </div>
                     </div>
-                  </div>
-            </div>
-            <div class="col-9" style="border: solid 1px">
-                <div class="row">
-                    <div class="col">
-                        <h3>기본정보</h3>
-                    </div>
-                </div>
-                <form class="row g-3">
-                    <div class="col-12">
-                      <label for="inputEmail4" class="form-label">코드그룹</label>
-                      <input type="email" class="form-control" id="inputEmail4">
-                    </div>
-                    <div class="col-3">
-                      <label for="inputAddress" class="form-label">코드</label>
-                      <input type="text" class="form-control" id="inputAddress" placeholder="자동생성">
-                    </div>
-                    <div class="col-3">
-                      <label for="inputAddress2" class="form-label">코드(ANOTHER)</label>
-                      <input type="text" class="form-control" id="inputAddress2" placeholder="영대소문자,숫자">
-                    </div>
-                    <div class="col-3">
-                        <label for="inputAddress2" class="form-label">코드 이름</label>
-                        <input type="text" class="form-control" id="inputAddress2" placeholder="한글,영대소문자,숫자">
-                      </div>
-                      <div class="col-3">
-                        <label for="inputAddress2" class="form-label">코드 이름(영문)</label>
-                        <input type="text" class="form-control" id="inputAddress2" placeholder="영대소문자,숫자">
-                      </div>
-                      <div class="col-3">
-                        <label for="inputAddress2" class="form-label">사용여부</label>
-                        <input type="text" class="form-control" id="inputAddress2">
-                      </div>
-                      <div class="col-3">
-                        <label for="inputAddress2" class="form-label">순서</label>
-                        <input type="text" class="form-control" id="inputAddress2">
-                      </div>
-                    <div class="col-12">
-                      <label for="inputCity" class="form-label">설명</label>
-                      <input type="text" class="form-control" id="inputCity">
-                    </div>
-                    <div class="col-3">
-                        <label for="inputAddress2" class="form-label">다국어1</label>
-                        <input type="text" class="form-control" id="inputAddress2">
-                      </div>
-                      <div class="col-3">
-                        <label for="inputAddress2" class="form-label">다국어2</label>
-                        <input type="text" class="form-control" id="inputAddress2">
-                      </div>
-                      <div class="col-3">
-                        <label for="inputAddress2" class="form-label">다국어3</label>
-                        <input type="text" class="form-control" id="inputAddress2">
-                      </div>
-                      <div class="col-3">
-                        <label for="inputAddress2" class="form-label">다국어4</label>
-                        <input type="text" class="form-control" id="inputAddress2">
-                      </div>
-                      <div class="col-3">
-                        <label for="inputAddress2" class="form-label">다국어5</label>
-                        <input type="text" class="form-control" id="inputAddress2">
-                      </div>
-                      <div class="col-3">
-                        <label for="inputAddress2" class="form-label">다국어6</label>
-                        <input type="text" class="form-control" id="inputAddress2">
-                      </div>
-                      <div class="col-3">
-                        <label for="inputAddress2" class="form-label">다국어7</label>
-                        <input type="text" class="form-control" id="inputAddress2">
-                      </div>
-                      <div class="col-3">
-                        <label for="inputAddress2" class="form-label">다국어8</label>
-                        <input type="text" class="form-control" id="inputAddress2">
-                      </div>
-                      <div class="col-3">
-                        <label for="inputAddress2" class="form-label">예비1(VARCHAR TYPE)</label>
-                        <input type="text" class="form-control" id="inputAddress2">
-                      </div>
-                      <div class="col-3">
-                        <label for="inputAddress2" class="form-label">예비2(VARCHAR TYPE)</label>
-                        <input type="text" class="form-control" id="inputAddress2">
-                      </div>
-                      <div class="col-3">
-                        <label for="inputAddress2" class="form-label">예비3(VARCHAR TYPE)</label>
-                        <input type="text" class="form-control" id="inputAddress2">
-                      </div>
-                      <div class="col-3">
-                        <label for="inputAddress2" class="form-label">예비4(VARCHAR TYPE)</label>
-                        <input type="text" class="form-control" id="inputAddress2">
-                      </div>
-                      <div class="col-3">
-                        <label for="inputAddress2" class="form-label">예비1(INT TYPE)</label>
-                        <input type="text" class="form-control" id="inputAddress2">
-                      </div>
-                      <div class="col-3">
-                        <label for="inputAddress2" class="form-label">예비2(INT TYPE)</label>
-                        <input type="text" class="form-control" id="inputAddress2">
-                      </div>
-                      <div class="col-3">
-                        <label for="inputAddress2" class="form-label">예비3(INT TYPE)</label>
-                        <input type="text" class="form-control" id="inputAddress2">
-                      </div>
-                      <div class="col-3">
-                        <label for="inputAddress2" class="form-label">예비4(INT TYPE)</label>
-                        <input type="text" class="form-control" id="inputAddress2">
-                      </div>
-                      <div class="col-12" style="text-align: right;">
-                          <button type="button" class="btn btn-primary">수정</button>
-                      </div>
-
-                  </form>
+                 </div>
+              </div>
             </div>
         </div>
-        
-      
     </div>
+    <!-- 기본틀 끝 -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
